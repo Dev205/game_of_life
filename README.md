@@ -14,3 +14,19 @@ because we want JavaScript to control when ticks happen, we will put this method
 ## Universe
 Create a fixed-size, periodic universe, where cells on the edges have neighbors that wrap around to the other 
 side of the universe. Because neighbors wrap around the edges of the universe, gliders can keep running forever.
+
+## Build/Run
+
+From rust root
+```
+wasm-pack build
+```
+From www
+```
+npm run start
+```
+Then visit `localhost:8080`
+
+I am using this as a start on rust & Canvas API so I can try making a falling sand sim (Noita)
+
+Learnt about drawaing canvas and the general idea of drawaing and chacking state of a linear grid
